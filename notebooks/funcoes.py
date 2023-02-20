@@ -1,5 +1,6 @@
 import requests 
-
+import urllib
+import pandas as pd
 
 def importa_salva_dados(url,filename,pasta='../src/data/'):
     resposta = requests.get(url)
